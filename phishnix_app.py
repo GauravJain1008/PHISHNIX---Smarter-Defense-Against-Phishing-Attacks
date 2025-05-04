@@ -3,7 +3,6 @@ import re
 import time
 import requests
 import random
-from urlextract import URLExtract
 import whois
 from datetime import datetime
 from urllib.parse import urlparse
@@ -12,7 +11,7 @@ import streamlit.components.v1 as components
 # ========== CONFIG ==========
 URLSCAN_API_KEY = "YOUR_URLSCAN_API_KEY"  # Replace with your URLScan.io API key or leave empty to disable
 
-extractor = URLExtract()
+# extractor = URLExtract()
 
 # List of popular brands for spoofing detection
 BRANDS = ['paypal', 'amazon', 'google', 'microsoft', 'apple', 'facebook']

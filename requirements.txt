@@ -1,0 +1,4 @@
+Requests==2.32.3
+streamlit==1.45.0
+urlextract==1.9.0
+whois==1.20240129.2
